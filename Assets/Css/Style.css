@@ -1,0 +1,51 @@
+body{
+    background-color: #FFC93C;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+table, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    max-width: 1600px;
+}
+
+th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+li{
+    font-weight: bold;
+}
+
+li.critical_error{
+    color: red;
+}
+
+li.error_in_answers{
+    color: yellow;
+}
+
+li.no_error{
+    color: green;
+}
+
+.container{
+    background-color: #FF9A3C; 
+    border-right: 2px double;
+    border-left: 2px double;
+    border-bottom: 2px double;
+    max-width: 1600px;
+}
+
+div.container input{
+    padding-left: 10px;
+}
+
+div.container h3{
+    padding-left: 10px;
+    padding-top: 20px; 
+}
